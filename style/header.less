@@ -1,5 +1,38 @@
 .header {
-  height: 80vh;
+  height: 60vh;
   background-color: #5F9EA0;
   margin-bottom: 20px;
+
+  nav {
+    ul {
+      list-style: none;
+      float: right;
+      margin-top: 5px;
+      li {
+        display: inline-block;
+        margin-right: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        line-height: 26px;
+        font-size: 13px;
+        border: 1px solid #5F9EA0;;
+        border-radius: 3px;
+        background-color: #ffffff;
+
+        a {
+          color: #534e63;
+          text-decoration: none;
+          font-weight: bold;
+          &:visited {
+            color: #534e63;
+          }
+        }
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+
+  }
 }
