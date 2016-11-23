@@ -1,3 +1,11 @@
+@color-black: #040404;
+@color-white: #ffffff;
+@color-gold: #ECD94E;
+@color-red: #CFOBOB;
+@color-grey: #641E16;
+@color-purple: #E593F1;
+@color-cowberry: #B20606;
+
 .header {
   height: 700px;
   margin-bottom: 20px;
@@ -27,27 +35,25 @@
       li {
         display: inline-block;
         line-height: 16px;
+        background-color: @color-black;
+        margin-left: 2px;
 
         a {
+          color: @color-gold;
           padding: 16px;
           display: block;
           font-size: 15px;
-          color: #ffffff;
           text-decoration: none;
           font-weight: bold;
           text-transform: uppercase;
           letter-spacing: 1px;
+
           &:visited {
-            color: #ffffff;
+            color: @color-gold;
           }
           &:hover {
             cursor: pointer;
           }
-        }
-
-        &:hover {
-          cursor: pointer;
-          border-bottom: 2px solid white;
         }
       }
     }
